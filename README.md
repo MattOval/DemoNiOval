@@ -53,7 +53,7 @@ You can run this program either by using:
    - Right-click inside the base_priority.py file and select Run Python File.
    - Alternatively, use the terminal (`Ctrl + ``) and type: python base_priority.py
 8. **Expected Output: The tasks will be processed in priority order:**
-```
+` ``` `
 Task Task 2 with priority 1 started.
 Task Task 2 completed.
 Task Task 1 with priority 2 started.
