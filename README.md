@@ -52,13 +52,14 @@ You can run this program either by using:
    - Right-click inside the base_priority.py file and select Run Python File.
    - Alternatively, use the terminal (`Ctrl + ``) and type: python base_priority.py
 8. **Expected Output: The tasks will be processed in priority order:**
- Task Task 2 with priority 1 started.
- Task Task 2 completed.
- Task Task 1 with priority 2 started.
- Task Task 1 completed.
- Task Task 3 with priority 3 started.
- Task Task 3 completed.
- All tasks completed.
+ -Task Task 2 with priority 1 started.
+ -Task Task 2 completed.
+ -Task Task 1 with priority 2 started.
+ -Task Task 1 completed.
+ -Task Task 3 with priority 3 started.
+ -Task Task 3 completed.
+ -All tasks completed.
+
 #### 3. Using NetBeans with Python
 
 ##### Requirements
@@ -88,8 +89,8 @@ This Python program uses threading and queue to run tasks in order of priority. 
 
 ###### Customizing the Program
 You can change or add more tasks by adjusting this part of the code:
-priority_queue.put((2, 'Task 1'))  # Priority 2
-priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
-priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
+-priority_queue.put((2, 'Task 1'))  # Priority 2
+-priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
+-priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
 
 Feel free to experiment with different priority numbers or add more tasks!
