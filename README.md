@@ -65,25 +65,25 @@ All tasks completed.
 ### 3. Using NetBeans with Python
 
 #### Requirements
-   -Install Python 3.x.
-   -Install NetBeans.
-   -Install the Python plugin for NetBeans (NetBeans may not have native Python support, so you'll need the plugin).
+- Install Python 3.x.
+- Install NetBeans.
+- Install the Python plugin for NetBeans (NetBeans may not have native Python support, so you'll need the plugin).
 
 #### Steps
 
 1. Open NetBeans: Launch NetBeans on your computer.
 2. Install the Python Plugin:
-   -Go to Tools > Plugins.
-   -In the Available Plugins tab, search for Python and install it.
+   - Go to Tools > Plugins.
+   - In the Available Plugins tab, search for Python and install it.
 3. Create a New Python Project:
-   -Go to File > New Project.
-   -Select Python as the project type and click Next.
+   - Go to File > New Project.
+   - Select Python as the project type and click Next.
 4. Add a Python File:
-   -Right-click on the Source Files folder and select New > Python File.
-   -Name it base_priority.py (or another name you prefer).
+   - Right-click on the Source Files folder and select New > Python File.
+   - Name it base_priority.py (or another name you prefer).
 5. Paste the Code:
-   -Paste the Python code provided earlier into this file.
-   -Run the Project:
+   - Paste the Python code provided earlier into this file.
+   - Run the Project:
 6. Right-click on the file in the Projects panel and select Run.
 7. Expected Output: The program will run and display task execution in order of priority.
 
@@ -92,7 +92,7 @@ This Python program uses threading and queue to run tasks in order of priority. 
 
 ### Customizing the Program
 You can change or add more tasks by adjusting this part of the code:
-```python
+```python`
 priority_queue.put((2, 'Task 1'))  # Priority 2
 priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
 priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
