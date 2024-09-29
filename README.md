@@ -92,7 +92,7 @@ This Python program uses threading and queue to run tasks in order of priority. 
 
 ### Customizing the Program
 You can change or add more tasks by adjusting this part of the code:
-```python`
+` ```python `
 priority_queue.put((2, 'Task 1'))  # Priority 2
 priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
 priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
