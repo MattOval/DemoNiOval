@@ -1,6 +1,7 @@
 # Task Queue Based on Priority in Python
 
 This project demonstrates how to use a priority queue in Python to manage and execute tasks based on their priority. It ensures that higher priority tasks (with lower priority numbers) are completed first. Threading can optionally be used to process multiple tasks concurrently, but the main focus is task execution based on priority.
+
 ## Requirements
 
 You can run this program either by using:
@@ -52,22 +53,23 @@ You can run this program either by using:
    - Right-click inside the base_priority.py file and select Run Python File.
    - Alternatively, use the terminal (`Ctrl + ``) and type: python base_priority.py
 8. **Expected Output: The tasks will be processed in priority order:**
- -Task Task 2 with priority 1 started.
- -Task Task 2 completed.
- -Task Task 1 with priority 2 started.
- -Task Task 1 completed.
- -Task Task 3 with priority 3 started.
- -Task Task 3 completed.
- -All tasks completed.
+```
+Task Task 2 with priority 1 started.
+Task Task 2 completed.
+Task Task 1 with priority 2 started.
+Task Task 1 completed.
+Task Task 3 with priority 3 started.
+Task Task 3 completed.
+All tasks completed.
 
-#### 3. Using NetBeans with Python
+### 3. Using NetBeans with Python
 
-##### Requirements
+#### Requirements
    -Install Python 3.x.
    -Install NetBeans.
    -Install the Python plugin for NetBeans (NetBeans may not have native Python support, so you'll need the plugin).
 
-#####Steps
+#### Steps
 1. Open NetBeans: Launch NetBeans on your computer.
 2. Install the Python Plugin:
    -Go to Tools > Plugins.
@@ -84,13 +86,14 @@ You can run this program either by using:
 6. Right-click on the file in the Projects panel and select Run.
 7. Expected Output: The program will run and display task execution in order of priority.
 
-###### How the Code Works
+### How the Code Works
 This Python program uses threading and queue to run tasks in order of priority. The tasks are added to a priority queue, and multiple threads ("workers") take tasks from the queue, execute them, and ensure that they are done in the correct order. The tasks with lower priority numbers are done first.
 
-###### Customizing the Program
+### Customizing the Program
 You can change or add more tasks by adjusting this part of the code:
--priority_queue.put((2, 'Task 1'))  # Priority 2
--priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
--priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
+```python
+priority_queue.put((2, 'Task 1'))  # Priority 2
+priority_queue.put((1, 'Task 2'))  # Priority 1 (highest)
+priority_queue.put((3, 'Task 3'))  # Priority 3 (lowest)
 
 Feel free to experiment with different priority numbers or add more tasks!
