@@ -70,6 +70,7 @@ All tasks completed.
    -Install the Python plugin for NetBeans (NetBeans may not have native Python support, so you'll need the plugin).
 
 #### Steps
+
 1. Open NetBeans: Launch NetBeans on your computer.
 2. Install the Python Plugin:
    -Go to Tools > Plugins.
