@@ -79,7 +79,7 @@ All tasks completed.
    -Select Python as the project type and click Next.
 4. Add a Python File:
    -Right-click on the Source Files folder and select New > Python File.
-   -Name it task_queue.py (or another name you prefer).
+   -Name it base_priority.py (or another name you prefer).
 5. Paste the Code:
    -Paste the Python code provided earlier into this file.
    -Run the Project:
